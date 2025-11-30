@@ -14,7 +14,11 @@
 
 #class is a main program that holds the subprograms
 #xls class (template/blueprint) holds subprograms (functions) (tabs)
+<<<<<<< Updated upstream
 print('Sunil Asha databricks')
+=======
+print('Sunil Asha abcd')
+>>>>>>> Stashed changes
 class xls:
     def tab1(self):
         pass
