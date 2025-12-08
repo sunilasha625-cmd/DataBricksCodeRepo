@@ -45,6 +45,7 @@ dbutils.fs.mv("/Volumes/workspace/default/volumewd36/sample_healthcare_patients1
 dbutils.fs.ls("/Volumes/workspace/default/volumewd36/healthcare/")
 dbutils.fs.cp("/Volumes/workspace/default/volumewd36/sample_healthcare_patients.csv","/Volumes/workspace/default/volumewd36/sample_healthcare_patients1.csv")
 print("put to write some data into a file")
+dbutils.fs.put("dbfs:///Volumes/workspace/default/volumewd36/sample_healthcare_patients1.csv","put something",True)
 
 # COMMAND ----------
 
