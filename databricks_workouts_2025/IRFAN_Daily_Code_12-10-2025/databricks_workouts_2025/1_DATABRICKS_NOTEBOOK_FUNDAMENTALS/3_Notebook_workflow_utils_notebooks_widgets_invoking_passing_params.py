@@ -187,3 +187,15 @@ for i in range(13):
 # COMMAND ----------
 
 dbutils.widgets.removeAll()
+
+# COMMAND ----------
+
+df1 = spark.read.csv(
+    "/Volumes/workspace/default/healthcare/raw/visits.csv"
+)
+df2=df1.toDF("visit_id","patient_id","visit_date","doctor","Cardiology","diagnosis")
+df2.show()
+
+
+
+
